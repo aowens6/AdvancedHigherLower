@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <link rel="preload" href="https://fonts.googleapis.com">
+    <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link async rel="stylesheet" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <title>Advanced Higher - Lower</title>
   </head>
@@ -11,7 +15,7 @@
       <p>Guess a number between 1 and <span id="chosenMax">your chosen maximum</span></p>
       <form>
         <label>Your guess:</label>
-        <input type="text" id="guess">
+        <input type="text" id="guessInputBox">
         <button type="button" id="guessBtn">Guess</button>
       </form>
       <p id="message"></p>

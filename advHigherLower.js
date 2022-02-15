@@ -27,7 +27,7 @@ guessBtn.onclick = processGuess;
 //FUNCTIONS
 function processGuess() {
 
-    let guess = Number(document.getElementById("guess").value);
+    let guess = Number(document.getElementById("guessInputBox").value);
 
     if(guess == winningNumber) {//Winner!!
 
